@@ -68,12 +68,7 @@
           <div class="menu-collapse collapse" id="menu-collapse">
             <div class="container">
               <div class="row">
-                <div class="col-md-3">
-                  <ul class="breadcrumb main-nav no-space">
-                    <li class="link-inpage"><a href="#contact" id="hireme-tab" class="link-inpage"><i class="fa fa-briefcase"></i> Seja meu chefe</a></li>
-                  </ul>
-                </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-md-offset-3">
                   <ul class="breadcrumb main-nav nav">
                     <li class="active"><a href="#home" class="link-inpage">Home</a></li>
                     <li ><a href="#about" class="link-inpage">Guilherme</a></li>
@@ -299,15 +294,15 @@
                 <span class="chart" data-percent="85">
                   <span class="percent"></span>
                 </span>
-                <div class="text-uppercase  color-dark">Php / Zend Framework</div>
+                <div class="text-uppercase  color-dark">PHP</div>
               </div>
             </li>
             <li class="col-sm-3 col-xs-6 no-padding">
               <div class="box br-right br-bottom">
-                <span class="chart" data-percent="25">
+                <span class="chart" data-percent="45">
                   <span class="percent"></span>
                 </span>
-                <div class="text-uppercase  color-dark">C#</div>
+                <div class="text-uppercase  color-dark">NoSQL</div>
               </div>
             </li>
             <li class="col-sm-3 col-xs-6 no-padding">
@@ -374,13 +369,13 @@
             <div class="col-sm-6">
               <ul class="list-unstyled list-progress">
                 <li>
-                  <div class="text-uppercase color-dark title "><span>Zend 2</span>  <small>35%</small></div>
+                  <div class="text-uppercase color-dark title "><span>JAVA</span>  <small>50%</small></div>
                   <div class="progress-line">
                     <div class="line" data-holdwidth="35%"></div>
                   </div>
                 </li>
                 <li>
-                  <div class="text-uppercase color-dark title">NodeJS   <small>15%</small></div>
+                  <div class="text-uppercase color-dark title">NodeJS   <small>75%</small></div>
                   <div class="progress-line">
                     <div class="line" data-holdwidth="15%"></div>
                   </div>
@@ -418,115 +413,7 @@
         </div><!-- END DOWNLOAD & PRVIEW BTN -->
       </section><!-- END SERVICES-->
 
-      <!--CONTACT-->
-      <section id="contact" class="block-section">
-        <!--CONTACT TITLE-->
-        <div class=" shape-bottom">
-          <div class="bg-secondary block-title">
-            <div class="container">
-              <h2 class="text-uppercase color-dark text-bold no-margin">Contato</h2>
-              <div class="title-icon"> <i class="fa fa-envelope-o"></i> </div>
-            </div>
-          </div>
-        </div><!--END CONTACT TITLE-->
-
-        <div class="contact-area">
-          <div class="form-contact-area clearfix">
-            <div class="inner-contact clearfix ">
-              <!--TABS CONTACT-->
-              <ul id="myTab" class="nav nav-tabs flat-nav-tabs" role="tablist">
-                <li class="active"><a href="#tab0" role="tab" data-toggle="tab">Fale comigo</a></li>
-                <li><a href="#tab1" role="tab" data-toggle="tab">Me contrate</a></li>
-              </ul>
-
-              <div id="myTabContent" class="tab-content flat-tab-content">
-                <div class="tab-pane fade in active" id="tab0">
-                  <form method="post" id="contactForm" name="contactForm">
-                    <input type="hidden" name="subject" value="Form Contato">
-                    <div class="form-group">
-                      <label>Seu nome (*)</label>
-                      <input type="text" class="form-control form-flat" name="fullname" required>
-                    </div>
-                    <div class="form-group">
-                      <label>Email (*)</label>
-                      <input type="email" class="form-control form-flat" name="email" required>
-                    </div>
-                    <div class="form-group">
-                      <label>Sua mensagem (*)</label>
-                      <textarea class="form-control form-flat" name="message" rows="8" required></textarea>
-                    </div>
-
-                    <div class="form-group">
-                      <div id="captcha1"></div>
-                    </div>
-                    <div class="form-group ">
-                      <button type="submit" class="btn btn-flat-solid primary-btn" >Enviar Contato</button>
-                    </div>
-                    <div class="form-group">
-                      <div class="preload-submit hidden"><hr/> <i class="fa fa-spinner fa-spin"></i> Aguarde ...</div>
-                      <div class="message-submit error hidden"></div>
-                    </div>
-                  </form>
-                </div>
-                <div class="tab-pane fade" id="tab1">
-                  <form method="post" id="hireForm" name="hireForm">
-                    <input type="hidden" name="subject" value="Form Serviço">
-                    <input type="hidden" name="file" id="file-att" value="">
-                    <div class="form-group">
-                      <label>Seu nome (*)</label>
-                      <input type="text" class="form-control form-flat" name="fullname" required>
-                    </div>
-                    <div class="form-group">
-                      <label>Email (*)</label>
-                      <input type="email" class="form-control form-flat" name="email" required>
-                    </div>
-                    <div class="form-group">
-                      <label>Pequena descrição do projeto (*)</label>
-                      <textarea class="form-control form-flat" name="message" rows="8" required></textarea>
-                    </div>
-
-                    <div class="form-group">
-                      <label>Anexar documento <span class="display-block color-dark">(somente .pdf, tam. máx 200Kb)</span></label>
-                      <div class="clearfix">						
-                        <input type="button" id="upload-btn" class="btn btn-flat-solid btn-file btn-xs btn-default  clearfix" value="Escolher arquivo">
-                        <div id="errormsg" class="clearfix error"></div>	              
-                        <div id="pic-progress-wrap" class="progress-wrap"></div>	
-                        <div id="picbox" class="attbox color-dark"></div>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div id="captcha2"></div>
-                    </div>
-
-                    <div class="form-group">
-                      <button type="submit" class="btn btn-flat-solid primary-btn">Enviar Proposta</button>
-                    </div>
-
-                    <div class="form-group">
-                      <div class="preload-submit hidden"><hr/> <i class="fa fa-spinner fa-spin"></i> Aguarde ...</div>
-                      <div class="message-submit error hidden"></div>
-                    </div>
-                  </form>
-                </div>
-              </div><!--End Tabs-->
-            </div>
-          </div>
-
-          <!--MAP-->
-          <div class="map-area" id="map-contact"></div>
-          <div class="hidden map-contact-body">
-            <div class="map-content">
-              <h4 class="no-margin-top font-alt">Estou aqui</h4>
-              <p><i class="fa fa-map-marker"></i> <strong>Endereço:</strong> Brasília - DF, Brasil</p>
-              <p><i class="fa fa-mobile"></i> <strong>Fone:</strong> 61 9988-6631 </p>
-              <p><i class="fa fa-envelope"></i> <strong>Email:</strong> contato@guilhermediniz.com</p>
-            </div>
-          </div>
-          <!--END MAP-->
-        </div>
-      </section><!--END CONTACT-->
-		
-		<!--FOOTER-->
+      <!--FOOTER-->
       <footer class="main-footer">
         <div class="container">
           <div class="folow-me">
@@ -543,11 +430,6 @@
         </div>
       </footer><!--END FOOTER-->
     </div><!--End wrapper page-->
-
-    <!-- generate captcha -->
-    <div id="mycaptcha-wrap" class="hidden mycaptcha1">
-      <div id="mycaptcha" class="mycaptcha1"></div>
-    </div>
 		
                 <script type="text/javascript" src="/assets/plugins/pace/pace.min.js"></script>
 <script type="text/javascript" src="/assets/plugins/jquery.js"></script>
