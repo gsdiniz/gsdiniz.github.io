@@ -1,0 +1,806 @@
+[
+  {
+    "id": 1,
+    "name": "Acupunturista",
+    "short_name": "Acupunturista",
+    "default": false,
+    "code": "",
+    "rank": 0,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 2,
+    "name": "Administrador de Saúde",
+    "short_name": "Administrador de Saúde",
+    "default": false,
+    "code": "",
+    "rank": 1,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 3,
+    "name": "Alergista",
+    "short_name": "Alergista",
+    "default": false,
+    "code": "CRM",
+    "rank": 2,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 4,
+    "name": "Anestesiologista",
+    "short_name": "Anestesiologista",
+    "default": false,
+    "code": "",
+    "rank": 3,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 5,
+    "name": "Angiologista",
+    "short_name": "Angiologista",
+    "default": false,
+    "code": "",
+    "rank": 4,
+    "has_child": true,
+    "icon_url": null
+  },
+  {
+    "id": 7,
+    "name": "Angiologista - Cardiologista",
+    "short_name": "Cardiologista",
+    "default": false,
+    "code": "CRM",
+    "rank": null,
+    "has_child": false,
+    "parent_id": 5,
+    "icon_url": "https://s3-sa-east-1.amazonaws.com/doutorja-assets-homologacao/ic_heart.png"
+  },
+  {
+    "id": 6,
+    "name": "Cancerologista",
+    "short_name": "Cancerologista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 78,
+    "name": "Cardiologista",
+    "short_name": "Cardiologista",
+    "default": false,
+    "code": "CRM",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 8,
+    "name": "Cirurgião Cardiovascular",
+    "short_name": "Cirurgião Cardiovascular",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 9,
+    "name": "Cirurgião Cranio-Maxilo-Facial",
+    "short_name": "Cirurgião Cranio-Maxilo-Facial",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 11,
+    "name": "Cirurgião de Cabeça e Pescoço",
+    "short_name": "Cirurgião de Cabeça e Pescoço",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 10,
+    "name": "Cirurgião de Mão",
+    "short_name": "Cirurgião de Mão",
+    "default": false,
+    "code": "CRM",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 12,
+    "name": "Cirurgião do Aparelho Digestivo",
+    "short_name": "Cirurgião do Aparelho Digestivo",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 14,
+    "name": "Cirurgião Geral",
+    "short_name": "Cirurgião Geral",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 15,
+    "name": "Cirurgião Pediátrico",
+    "short_name": "Cirurgião Pediátrico",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 16,
+    "name": "Cirurgião Plástico",
+    "short_name": "Cirurgião Plástico",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 17,
+    "name": "Cirurgião Torácico",
+    "short_name": "Cirurgião Torácico",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 18,
+    "name": "Cirurgião Vascular",
+    "short_name": "Cirurgião Vascular",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 19,
+    "name": "Clínico Geral",
+    "short_name": "Clínico Geral",
+    "default": true,
+    "code": "CRM",
+    "rank": null,
+    "has_child": false,
+    "icon_url": "https://s3-sa-east-1.amazonaws.com/doutorja-assets-homologacao/ic_clinica_medica.png"
+  },
+  {
+    "id": 20,
+    "name": "Coloproctologista",
+    "short_name": "Coloproctologista",
+    "default": false,
+    "code": "CRM",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 54,
+    "name": "Dentista",
+    "short_name": "Dentista",
+    "default": false,
+    "code": "CRO",
+    "rank": null,
+    "has_child": true,
+    "icon_url": null
+  },
+  {
+    "id": 77,
+    "name": "Dentista - Ortodontista",
+    "short_name": "Ortodontista",
+    "default": false,
+    "code": "CRO",
+    "rank": null,
+    "has_child": true,
+    "parent_id": 54,
+    "icon_url": null
+  },
+  {
+    "id": 21,
+    "name": "Dermatologista",
+    "short_name": "Dermatologista",
+    "default": false,
+    "code": "CRM",
+    "rank": null,
+    "has_child": false,
+    "icon_url": "https://s3-sa-east-1.amazonaws.com/doutorja-assets-homologacao/ic_dermatologia.png"
+  },
+  {
+    "id": 76,
+    "name": "Educador Físico",
+    "short_name": "Educador Físico",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 22,
+    "name": "Endocrinologista",
+    "short_name": "Endocrinologista",
+    "default": false,
+    "code": "CRM",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 23,
+    "name": "Endoscopista",
+    "short_name": "Endoscopista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 24,
+    "name": "Enfermeiro(a)",
+    "short_name": "Enfermeiro(a)",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 80,
+    "name": "Exames",
+    "short_name": "Exames",
+    "default": false,
+    "code": "CRM",
+    "rank": null,
+    "has_child": true,
+    "icon_url": null
+  },
+  {
+    "id": 82,
+    "name": "Exames - Densitometria Óssea",
+    "short_name": "Densitometria Óssea",
+    "default": false,
+    "code": "CRM",
+    "rank": null,
+    "has_child": false,
+    "parent_id": 80,
+    "icon_url": null
+  },
+  {
+    "id": 81,
+    "name": "Exames - Mamografia",
+    "short_name": "Mamografia",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "parent_id": 80,
+    "icon_url": null
+  },
+  {
+    "id": 41,
+    "name": "Fisiatra",
+    "short_name": "Fisiatra",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 25,
+    "name": "Fisioterapeuta",
+    "short_name": "Fisioterapeuta",
+    "default": false,
+    "code": "CREFITO",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 26,
+    "name": "Fonoaudiólogo(a)",
+    "short_name": "Fonoaudiólogo(a)",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 27,
+    "name": "Gastroenterologista",
+    "short_name": "Gastroenterologista",
+    "default": false,
+    "code": "CRM",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 28,
+    "name": "Geneticista",
+    "short_name": "Geneticista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 29,
+    "name": "Geriatra",
+    "short_name": "Geriatra",
+    "default": false,
+    "code": "CRM",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 30,
+    "name": "Ginecologista",
+    "short_name": "Ginecologista",
+    "default": false,
+    "code": "CRM",
+    "rank": null,
+    "has_child": false,
+    "icon_url": "https://s3-sa-east-1.amazonaws.com/doutorja-assets-homologacao/ic_ginecologia.png"
+  },
+  {
+    "id": 31,
+    "name": "Hematologista",
+    "short_name": "Hematologista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 32,
+    "name": "Homeopata",
+    "short_name": "Homeopata",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 33,
+    "name": "Infectologista",
+    "short_name": "Infectologista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 34,
+    "name": "Mastologista",
+    "short_name": "Mastologista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 35,
+    "name": "Médico da Família",
+    "short_name": "Médico da Família",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 37,
+    "name": "Médico de Urgência",
+    "short_name": "Médico de Urgência",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 39,
+    "name": "Médico do Esporte",
+    "short_name": "Médico do Esporte",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 38,
+    "name": "Médico do Trabalho",
+    "short_name": "Médico do Trabalho",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 36,
+    "name": "Médico do Tráfego",
+    "short_name": "Médico do Tráfego",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 40,
+    "name": "Médico Esteticista",
+    "short_name": "Médico Esteticista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 42,
+    "name": "Médico Intensivista",
+    "short_name": "Médico Intensivista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 43,
+    "name": "Médico Internista",
+    "short_name": "Médico Internista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 44,
+    "name": "Médico Laboratorista",
+    "short_name": "Médico Laboratorista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 45,
+    "name": "Médico Legista",
+    "short_name": "Médico Legista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 46,
+    "name": "Médico Nuclear",
+    "short_name": "Médico Nuclear",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 48,
+    "name": "Nefrologista",
+    "short_name": "Nefrologista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 49,
+    "name": "Neurocirurgião",
+    "short_name": "Neurocirurgião",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 50,
+    "name": "Neurofisiologista Clínico",
+    "short_name": "Neurofisiologista Clínico",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 51,
+    "name": "Neurologista",
+    "short_name": "Neurologista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 52,
+    "name": "Nutricionista",
+    "short_name": "Nutricionista",
+    "default": false,
+    "code": "CRN",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 53,
+    "name": "Nutrólogo",
+    "short_name": "Nutrólogo",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 55,
+    "name": "Oftalmologista",
+    "short_name": "Oftalmologista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": "https://s3-sa-east-1.amazonaws.com/doutorja-assets-homologacao/ic_oftalmologia.png"
+  },
+  {
+    "id": 56,
+    "name": "Optometrista",
+    "short_name": "Optometrista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 57,
+    "name": "Ortopedista",
+    "short_name": "Ortopedista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 58,
+    "name": "Otorrinolaringologista",
+    "short_name": "Otorrinolaringologista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 59,
+    "name": "Patologista",
+    "short_name": "Patologista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 60,
+    "name": "Patologista Clínico",
+    "short_name": "Patologista Clínico",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 61,
+    "name": "Pediatra",
+    "short_name": "Pediatra",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": "https://s3-sa-east-1.amazonaws.com/doutorja-assets-homologacao/ic_pediatria.png"
+  },
+  {
+    "id": 62,
+    "name": "Pneumologista",
+    "short_name": "Pneumologista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 63,
+    "name": "Podólogo",
+    "short_name": "Podólogo",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 64,
+    "name": "Psicanalista",
+    "short_name": "Psicanalista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 65,
+    "name": "Psicólogo",
+    "short_name": "Psicólogo",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 66,
+    "name": "Psicopedagogo(a)",
+    "short_name": "Psicopedagogo(a)",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 67,
+    "name": "Psiquiatra",
+    "short_name": "Psiquiatra",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 68,
+    "name": "Quiroprata",
+    "short_name": "Quiroprata",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 69,
+    "name": "Radiologista",
+    "short_name": "Radiologista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 70,
+    "name": "Radioterapeuta",
+    "short_name": "Radioterapeuta",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 71,
+    "name": "Reumatologista",
+    "short_name": "Reumatologista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 72,
+    "name": "Sexólogo(a)",
+    "short_name": "Sexólogo(a)",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 74,
+    "name": "Terapeuta Complementar",
+    "short_name": "Terapeuta Complementar",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 73,
+    "name": "Terapeuta Ocupacional",
+    "short_name": "Terapeuta Ocupacional",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 83,
+    "name": "Ultrassonografia",
+    "short_name": "Ultrassonografia",
+    "default": false,
+    "code": "CRM",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  },
+  {
+    "id": 75,
+    "name": "Urologista",
+    "short_name": "Urologista",
+    "default": false,
+    "code": "",
+    "rank": null,
+    "has_child": false,
+    "icon_url": null
+  }
+]

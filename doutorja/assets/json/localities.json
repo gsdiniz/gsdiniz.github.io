@@ -1,0 +1,1430 @@
+[
+  {
+    "id": "ES",
+    "short": "ES",
+    "name": "Espírito Santo",
+    "cities": [
+      {
+        "id": 2028,
+        "name": "Serra",
+        "parent_id": "ES",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 1605,
+            "name": "Jardim Limoeiro",
+            "parent_id": 2028,
+            "type": "neighborhood"
+          },
+          {
+            "id": 1609,
+            "name": "Parque Residencial Laranjeiras",
+            "parent_id": 2028,
+            "type": "neighborhood"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MG",
+    "short": "MG",
+    "name": "Minas Gerais",
+    "cities": [
+      {
+        "id": 2754,
+        "name": "Belo Horizonte",
+        "parent_id": "MG",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 3263,
+            "name": "Alípio de Melo",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3272,
+            "name": "Barreiro",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3274,
+            "name": "Barro Preto",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3278,
+            "name": "Belvedere",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3297,
+            "name": "Carlos Prates",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3298,
+            "name": "Carmo",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3305,
+            "name": "Centro",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3363,
+            "name": "Funcionários",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3374,
+            "name": "Horto",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3420,
+            "name": "Lourdes",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3456,
+            "name": "Nova Suíssa",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3470,
+            "name": "Pampulha",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3512,
+            "name": "Santa Efigênia",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3528,
+            "name": "São Francisco",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3531,
+            "name": "São João Batista (Venda Nova)",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3534,
+            "name": "São José",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3540,
+            "name": "Parque São Pedro (Venda Nova)",
+            "parent_id": 2754,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 2762,
+        "name": "Betim",
+        "parent_id": "MG",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 3617,
+            "name": "Brasiléia",
+            "parent_id": 2762,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3622,
+            "name": "Centro",
+            "parent_id": 2762,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 2980,
+        "name": "Contagem",
+        "parent_id": "MG",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 3789,
+            "name": "Amazonas",
+            "parent_id": 2980,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3824,
+            "name": "Eldorado",
+            "parent_id": 2980,
+            "type": "neighborhood"
+          },
+          {
+            "id": 3837,
+            "name": "Industrial",
+            "parent_id": 2980,
+            "type": "neighborhood"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "RJ",
+    "short": "RJ",
+    "name": "Rio de Janeiro",
+    "cities": [
+      {
+        "id": 6845,
+        "name": "Angra dos Reis",
+        "parent_id": "RJ",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 31225,
+            "name": "Centro",
+            "parent_id": 6845,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 6848,
+        "name": "Araruama",
+        "parent_id": "RJ",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 0,
+            "name": null,
+            "parent_id": 6848,
+            "type": "neighborhood"
+          },
+          {
+            "id": 31210,
+            "name": "Centro",
+            "parent_id": 6848,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 6865,
+        "name": "Belford Roxo",
+        "parent_id": "RJ",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 10647,
+            "name": "Centro",
+            "parent_id": 6865,
+            "type": "neighborhood"
+          },
+          {
+            "id": 10653,
+            "name": "Heliópolis",
+            "parent_id": 6865,
+            "type": "neighborhood"
+          },
+          {
+            "id": 10692,
+            "name": "Lote XV",
+            "parent_id": 6865,
+            "type": "neighborhood"
+          },
+          {
+            "id": 10696,
+            "name": "Meu Cantinho",
+            "parent_id": 6865,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 6912,
+        "name": "Duque de Caxias",
+        "parent_id": "RJ",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 10957,
+            "name": "Centro",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 10969,
+            "name": "Gramacho",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 10971,
+            "name": "Imbariê",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 10995,
+            "name": "Jardim Primavera",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 10997,
+            "name": "Jardim Rosário",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11007,
+            "name": "Jardim Vinte e Cinco de Agosto",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11017,
+            "name": "Parque Barão do Amapá",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11027,
+            "name": "Parque Duque",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11060,
+            "name": "Parque Senhor do Bonfim",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11064,
+            "name": "Parque Xerém",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11092,
+            "name": "Vila Centenário",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11096,
+            "name": "Vila Ema",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11098,
+            "name": "Vila Flávia",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11105,
+            "name": "Vila Meriti",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11108,
+            "name": "Vila Operária",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11112,
+            "name": "Vila Santa Alice",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11117,
+            "name": "Vila São Luís",
+            "parent_id": 6912,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 6941,
+        "name": "Itaboraí",
+        "parent_id": "RJ",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 34567,
+            "name": "Centro",
+            "parent_id": 6941,
+            "type": "neighborhood"
+          },
+          {
+            "id": 54274,
+            "name": "Nancilândia",
+            "parent_id": 6941,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 6973,
+        "name": "Mesquita",
+        "parent_id": "RJ",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 11514,
+            "name": "Edson Passos",
+            "parent_id": 6973,
+            "type": "neighborhood"
+          },
+          {
+            "id": 35937,
+            "name": "Centro",
+            "parent_id": 6973,
+            "type": "neighborhood"
+          },
+          {
+            "id": 35941,
+            "name": "Vila Emil",
+            "parent_id": 6973,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 6988,
+        "name": "Nilópolis",
+        "parent_id": "RJ",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 11348,
+            "name": "Centro",
+            "parent_id": 6988,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11351,
+            "name": "Olinda",
+            "parent_id": 6988,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 6989,
+        "name": "Niterói",
+        "parent_id": "RJ",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 11357,
+            "name": "Barreto",
+            "parent_id": 6989,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11360,
+            "name": "Camboinhas",
+            "parent_id": 6989,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11363,
+            "name": "Centro",
+            "parent_id": 6989,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11371,
+            "name": "Icaraí",
+            "parent_id": 6989,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11373,
+            "name": "Ingá",
+            "parent_id": 6989,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11375,
+            "name": "Itaipu",
+            "parent_id": 6989,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11379,
+            "name": "Largo da Batalha",
+            "parent_id": 6989,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11391,
+            "name": "Pe Pequeno",
+            "parent_id": 6989,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11393,
+            "name": "Piratininga",
+            "parent_id": 6989,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11398,
+            "name": "Santa Rosa",
+            "parent_id": 6989,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11400,
+            "name": "São Francisco",
+            "parent_id": 6989,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11401,
+            "name": "São Lourenço",
+            "parent_id": 6989,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 6994,
+        "name": "Nova Iguaçu",
+        "parent_id": "RJ",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 11494,
+            "name": "Centro",
+            "parent_id": 6994,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11578,
+            "name": "Jardim Nova Era",
+            "parent_id": 6994,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11619,
+            "name": "Metrópole",
+            "parent_id": 6994,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11620,
+            "name": "Miguel Couto",
+            "parent_id": 6994,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11706,
+            "name": "São Benedito",
+            "parent_id": 6994,
+            "type": "neighborhood"
+          },
+          {
+            "id": 11740,
+            "name": "Vila de Cava",
+            "parent_id": 6994,
+            "type": "neighborhood"
+          },
+          {
+            "id": 50394,
+            "name": "Cabuçu",
+            "parent_id": 6994,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 7043,
+        "name": "Rio de Janeiro",
+        "parent_id": "RJ",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 12144,
+            "name": "Abolição",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12147,
+            "name": "Alto da Boa Vista",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12148,
+            "name": "Anchieta",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12150,
+            "name": "Anil",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12154,
+            "name": "Bangu",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12155,
+            "name": "Barra da Tijuca",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12159,
+            "name": "Bento Ribeiro",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12160,
+            "name": "Bonsucesso",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12161,
+            "name": "Botafogo",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12162,
+            "name": "Braz de Pina",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12163,
+            "name": "Cachambi",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12165,
+            "name": "Cacuia",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12167,
+            "name": "Camorim",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12168,
+            "name": "Campinho",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12169,
+            "name": "Campo dos Afonsos",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12170,
+            "name": "Campo Grande",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12171,
+            "name": "Cascadura",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12172,
+            "name": "Catete",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12175,
+            "name": "Centro",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12179,
+            "name": "Cocotá",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12182,
+            "name": "Copacabana",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12185,
+            "name": "Cosmos",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12187,
+            "name": "Curicica",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12189,
+            "name": "Del Castilho",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12196,
+            "name": "Engenho de Dentro",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12197,
+            "name": "Engenho Novo",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12199,
+            "name": "Flamengo",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12204,
+            "name": "Gávea",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12205,
+            "name": "Glória",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12206,
+            "name": "Grajaú",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12208,
+            "name": "Guadalupe",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12211,
+            "name": "Higienópolis",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12213,
+            "name": "Humaitá",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12214,
+            "name": "Inhaúma",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12215,
+            "name": "Inhoaíba",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12216,
+            "name": "Ipanema",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12217,
+            "name": "Irajá",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12219,
+            "name": "Itanhangá",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12222,
+            "name": "Jacarepaguá",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12224,
+            "name": "Jardim Botânico",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12225,
+            "name": "Jardim Carioca",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12226,
+            "name": "Jardim Guanabara",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12230,
+            "name": "Jardim Sulacap",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12231,
+            "name": "Joá",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12232,
+            "name": "Lagoa",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12233,
+            "name": "Laranjeiras",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12234,
+            "name": "Leblon",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12235,
+            "name": "Leme",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12239,
+            "name": "Madureira",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12242,
+            "name": "Manguinhos",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12243,
+            "name": "Maracanã",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12246,
+            "name": "Méier",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12247,
+            "name": "Moneró",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12250,
+            "name": "Olaria",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12251,
+            "name": "Oswaldo Cruz",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12253,
+            "name": "Padre Miguel",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12255,
+            "name": "Parada de Lucas",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12256,
+            "name": "Parque Anchieta",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12258,
+            "name": "Pechincha",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12260,
+            "name": "Penha",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12261,
+            "name": "Penha Circular",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12262,
+            "name": "Piedade",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12263,
+            "name": "Pilares",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12265,
+            "name": "Portuguesa",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12266,
+            "name": "Praça da Bandeira",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12267,
+            "name": "Praça Seca",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12270,
+            "name": "Quintino Bocaiúva",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12271,
+            "name": "Ramos",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12272,
+            "name": "Realengo",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12273,
+            "name": "Recreio dos Bandeirantes",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12275,
+            "name": "Ribeira",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12277,
+            "name": "Rio Comprido",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12280,
+            "name": "Rocha Miranda",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12281,
+            "name": "Rocinha",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12282,
+            "name": "Sampaio",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12283,
+            "name": "Santa Cruz",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12284,
+            "name": "Santa Teresa",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12287,
+            "name": "São Conrado",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12288,
+            "name": "São Cristóvão",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12289,
+            "name": "São Francisco Xavier",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12295,
+            "name": "Tanque",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12296,
+            "name": "Taquara",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12297,
+            "name": "Tauá",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12298,
+            "name": "Tijuca",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12305,
+            "name": "Urca",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12306,
+            "name": "Vargem Grande",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12307,
+            "name": "Vargem Pequena",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12309,
+            "name": "Vicente de Carvalho",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12310,
+            "name": "Vidigal",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12312,
+            "name": "Vila da Penha",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12314,
+            "name": "Vila Isabel",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12318,
+            "name": "Vila Valqueire",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12320,
+            "name": "Vista Alegre",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          },
+          {
+            "id": 33624,
+            "name": "Freguesia (Jacarepaguá)",
+            "parent_id": 7043,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 7067,
+        "name": "São Gonçalo",
+        "parent_id": "RJ",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 12322,
+            "name": "Alcântara",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12331,
+            "name": "Barro Vermelho",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12338,
+            "name": "Centro",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12339,
+            "name": "Coelho",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12340,
+            "name": "Colubande",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12344,
+            "name": "Estrela do Norte",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12370,
+            "name": "Mutondo",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12371,
+            "name": "Mutuá",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12374,
+            "name": "Neves (Neves)",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12382,
+            "name": "Patronato",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12406,
+            "name": "Trindade",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12409,
+            "name": "Venda da Cruz",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12416,
+            "name": "Zé Garoto",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          },
+          {
+            "id": 53660,
+            "name": "Vila Três",
+            "parent_id": 7067,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 7069,
+        "name": "São João de Meriti",
+        "parent_id": "RJ",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 12420,
+            "name": "Centro",
+            "parent_id": 7069,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12421,
+            "name": "Coelho da Rocha",
+            "parent_id": 7069,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12434,
+            "name": "Jardim José Bonifácio",
+            "parent_id": 7069,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12439,
+            "name": "Jardim Metrópole",
+            "parent_id": 7069,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12446,
+            "name": "Jardim Sumaré",
+            "parent_id": 7069,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12456,
+            "name": "Parque Novo Rio",
+            "parent_id": 7069,
+            "type": "neighborhood"
+          },
+          {
+            "id": 12494,
+            "name": "Vilar dos Teles",
+            "parent_id": 7069,
+            "type": "neighborhood"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SP",
+    "short": "SP",
+    "name": "São Paulo",
+    "cities": [
+      {
+        "id": 9668,
+        "name": "São Paulo",
+        "parent_id": "SP",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 26669,
+            "name": "Brás",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26859,
+            "name": "Centro",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26860,
+            "name": "Itaim Bibi",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26861,
+            "name": "República",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26861,
+            "name": "Vila Clementino",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26861,
+            "name": "Parque da Mooca",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26861,
+            "name": "Vila Americana",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26861,
+            "name": "Cidade São Mateus",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26861,
+            "name": "Pinheiros",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26861,
+            "name": "Santo Amaro",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26861,
+            "name": "Vila Regente Feijó",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26861,
+            "name": "Cidade Mãe do Céu",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26861,
+            "name": "Santana",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26861,
+            "name": "Consolação",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26861,
+            "name": "Tatuapé",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 9668,
+        "name": "Santo André",
+        "parent_id": "SP",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 26669,
+            "name": "Centro",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26669,
+            "name": "Jardim",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          },
+          {
+            "id": 26669,
+            "name": "Parque das Nações",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          }
+        ]
+      },
+      {
+        "id": 9668,
+        "name": "Mauá",
+        "parent_id": "SP",
+        "type": "city",
+        "neighborhoods": [
+          {
+            "id": 26669,
+            "name": "Matriz",
+            "parent_id": 9668,
+            "type": "neighborhood"
+          }
+        ]
+      }
+    ]
+  }
+]
